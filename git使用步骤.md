@@ -26,7 +26,7 @@ SSH公钥默认储存在账户的主目录下的 ~/.ssh 目录(windows在user目
   git push -u origin master
 ```
 ## 4. 分支管理
-#### 新建分支hehe!!!
+#### 新建分支
 ```
   git branch 分支名
 ```
@@ -49,3 +49,8 @@ git branch -d 分支名 删除本地分支
   git config --global user.name "demo"
   git config --global user.email "demo@aerothief.com"
 ```
+#### 如何干掉可恶的vim
+```
+git  config  --global  core.editor   "'C:\Program Files (x86)\Notepad++\notepad++.exe'  -multiInst   -notabbar  -nose ssion  -noPlugin
+```
+路径替换成你喜欢的文本编辑器路径
