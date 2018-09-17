@@ -26,7 +26,7 @@ SSH公钥默认储存在账户的主目录下的 ~/.ssh 目录(windows在user目
   git push -u origin master
 ```
 ## 4. 分支管理
-#### 新建分支hehe!!!
+#### 新建分支
 ```
   git branch 分支名
 ```
