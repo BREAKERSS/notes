@@ -26,6 +26,7 @@ SSH公钥默认储存在账户的主目录下的 ~/.ssh 目录(windows在user目
 ```
   git push -u origin master
 ```
+---
 ## 4. 分支管理
 #### 新建分支
 ```
@@ -44,6 +45,7 @@ SSH公钥默认储存在账户的主目录下的 ~/.ssh 目录(windows在user目
 git push origin :分支名 删除远程分支
 git branch -D 分支名 删除本地分支
 ```
+---
 ## 其他
 #### 首次使用配置
 ```
